@@ -29,7 +29,6 @@
       to { opacity: 1; }
     }
     .logo-glow {
-      width: 180px;
       filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.6));
       transition: all 0.6s ease-in-out;
       animation: softPulse 3s ease-in-out infinite;
@@ -46,18 +45,21 @@
 </head>
 <body class="font-serif">
 
+  <!-- Hero Section -->
   <section id="home" class="hero-bg h-screen flex flex-col justify-center items-center text-center relative overflow-hidden">
-    <img src="https://i.ibb.co/cSfz8mMj/Chat-GPT-Image-Oct-16-2025-01-05-25-PM.png" alt="alchemy logo" class="logo-glow mb-6">
+    <img src="https://i.ibb.co/cSfz8mMj/Chat-GPT-Image-Oct-16-2025-01-05-25-PM.png" alt="alchemy logo" class="w-40 mb-6 logo-glow">
     <h1 class="text-5xl md:text-6xl font-bold gold-text glow mb-4">Transmute Thought Into Gold</h1>
     <p class="text-lg md:text-xl mb-6 max-w-2xl">Enter the alchemist’s lab — a mind transformation experience blending hypnosis, NLP, and ancient alchemy.</p>
     <a href="#signup" class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-8 rounded-full shadow-lg transition">Enter the Lab</a>
   </section>
 
+  <!-- About Section -->
   <section id="about" class="py-20 px-6 md:px-20 text-center">
     <h2 class="text-4xl gold-text mb-6">Meet Duane</h2>
     <p class="max-w-3xl mx-auto leading-relaxed text-lg">Duane Raats is a conversational hypnotherapist, NLP practitioner, and student of Milton Erickson’s mind-bending language. He studied at the <span class="gold-text">South African Institute of Hypnotism (SAIH)</span> and with Igor Ledochowski’s advanced hypnosis courses. Having facilitated numerous psychedelic journeys and self-transformation sessions, Duane guides people beyond the limits of old identity into the philosopher’s gold — awakening the self that creates reality itself.</p>
   </section>
 
+  <!-- Program Section -->
   <section id="program" class="py-20 px-6 md:px-20 bg-gradient-to-b from-black to-gray-900 text-center">
     <h2 class="text-4xl gold-text mb-6">The Program</h2>
     <div class="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
@@ -76,6 +78,44 @@
     </div>
   </section>
 
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 px-6 md:px-20 text-center">
+    <h2 class="text-4xl gold-text mb-6">Transformations</h2>
+    <div class="max-w-4xl mx-auto space-y-8">
+      <blockquote class="italic">“Within two weeks, my anxiety melted away. It felt like remembering who I really am.” — <span class="gold-text">Sarah M.</span></blockquote>
+      <blockquote class="italic">“This isn’t self-help — it’s soul alchemy. My whole reality shifted.” — <span class="gold-text">Liam P.</span></blockquote>
+      <blockquote class="italic">“Every word felt like a mirror. The hypnosis opened something ancient in me.” — <span class="gold-text">Tara J.</span></blockquote>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="py-20 px-6 md:px-20 bg-gradient-to-b from-gray-900 to-black text-center">
+    <h2 class="text-4xl gold-text mb-6">Insights from the Lab</h2>
+    <p class="max-w-3xl mx-auto mb-10">Explore writings on self-transformation, hypnosis, and the art of alchemy.</p>
+    <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div class="border border-yellow-500/20 rounded-xl p-4 hover:bg-yellow-500/10">
+        <h3 class="text-xl gold-text mb-2">The Mind as Metal</h3>
+        <p>How to melt old patterns and forge new realities.</p>
+      </div>
+      <div class="border border-yellow-500/20 rounded-xl p-4 hover:bg-yellow-500/10">
+        <h3 class="text-xl gold-text mb-2">The Hypnotic Philosopher</h3>
+        <p>Using language as a tool of transformation and awakening.</p>
+      </div>
+      <div class="border border-yellow-500/20 rounded-xl p-4 hover:bg-yellow-500/10">
+        <h3 class="text-xl gold-text mb-2">Turning Shadow into Gold</h3>
+        <p>Transmuting inner darkness into awareness and light.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 md:px-20 text-center">
+    <h2 class="text-4xl gold-text mb-6">Contact & Connect</h2>
+    <p class="mb-8">Questions or ready to begin your transformation? Message Duane below or connect on WhatsApp.</p>
+    <a href="https://wa.me/27600000000" target="_blank" class="bg-green-500 hover:bg-green-400 text-black font-bold py-3 px-8 rounded-full shadow-lg transition">Chat on WhatsApp</a>
+  </section>
+
+  <!-- Signup Section -->
   <section id="signup" class="py-20 px-6 md:px-20 bg-gradient-to-b from-black to-gray-900 text-center">
     <h2 class="text-4xl gold-text mb-6">Enter the Lab</h2>
     <p class="max-w-xl mx-auto mb-8">Join now to receive transformational insights, free hypnosis audios, and early access to The Alchemist’s Lab Program.</p>
@@ -85,6 +125,7 @@
     </form>
   </section>
 
+  <!-- Footer -->
   <footer class="py-10 text-center text-sm text-gray-400 border-t border-gray-800">
     <p>© 2025 The Alchemist’s Lab | Crafted by Duane Raats 🜂</p>
   </footer>
